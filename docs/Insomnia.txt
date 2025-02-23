@@ -1,0 +1,12 @@
+https://insomnia.rest/download
+
+criar um projeto padrão (Workspace)
+dentro dele, criar uma request Collection (apiRest-node)
+
+A partir dai podemos criar nossas requisições HTTP
+(GET, POST, DELETE, PUT)
+
+inserimos o link da api
+escolhemos o metodo
+e clica em 'send'
+

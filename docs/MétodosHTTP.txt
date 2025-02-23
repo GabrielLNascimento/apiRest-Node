@@ -1,0 +1,10 @@
+podemos usar varios tipos de rotas
+CRUD -> CREATE READ UPDATE DELETE
+
+GET -> pega a pagina
+POST -> envia dados
+PUT -> atualiza
+DELETE -> deleta
+
+* Existem outros, mas esses são os principais
+

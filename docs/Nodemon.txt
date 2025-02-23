@@ -1,0 +1,16 @@
+instalar biblioteca
+- npm install -D nodemon
+
+Criar arquivo nodemon.json:
+    {
+        "watch": ["src"],
+        "ext": "ts",
+        "ignore": ["src/**/*.spec.ts"],
+        "exec": "ts-node --transpileOnly src/index.ts"
+    }
+
+criar script:
+"dev": "nodemon"
+
+Rodar aplicação
+- npm run dev
