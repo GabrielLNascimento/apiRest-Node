@@ -1,0 +1,39 @@
+## Comandos:
+- npm init -y
+(configurar o package.json)
+- npm ts-node ./src/index.ts -> rodar o arquivo
+(Acessar localhost:3000)
+
+## Configurar typescript
+- npx tsc --init
+- add script:
+    "dev": "ts-node src/index.ts"
+- comando para rodar
+    npm run dev
+
+
+## arquivo gitignore
+- node_modules
+- .env
+
+
+## Instalar dependecias:
+(Adiciona pasta node_modules para guardar as dependecias)
+- express
+- -D typescript @types/express ts-node-dev (dependencias de desenvolvimento)
+
+
+## Criar pasta 'src' -> guardar todo o código da aplicação
+    - pasta 'src' -> arquivo index.ts
+    - pasta 'server' -> Server.ts
+
+
+## Arquivo Server.ts:
+    - importar express
+    - criar a variavel server
+    - criar uma rota (GET) ("/") (req, res)
+    - exportar { server }
+
+## No arquivo index.ts:
+    - importar o arquivo Server
+    - server.listen() - porta e funcao de callback (msg)

@@ -1,0 +1,2 @@
+- criar arquivo .gitignore (node_modules e .env)
+- Aba source control -> inicializar repositorio
