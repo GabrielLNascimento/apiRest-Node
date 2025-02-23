@@ -1,0 +1,8 @@
+Ajuda a manter uma boa coerencia no nosso codigo
+Respeitar regras e formas diferentes da melhor forma possivel
+
+Comando para iniciar
+- npx eslint --init
+
+Extensão do vscode
+- ESLint

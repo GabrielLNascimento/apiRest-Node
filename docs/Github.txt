@@ -1,4 +1,4 @@
 - criar arquivo .gitignore (node_modules e .env)
 - Aba source control -> inicializar repositorio
 - colocar nome e dar commit
-- clicar em publish branch
+- clicar em publish branch (public ou private)
