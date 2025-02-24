@@ -1,0 +1,13 @@
+Gerar arquivo tsconfig.json
+- npx tsc --init
+
+Comando para gerar arquivos .js
+- tsc
+
+Configurar pasta de saida
+no arquivo tsconfg.json:
+- "outDir": "./build"
+
+Configurar pasta de root (entrada):
+no arquivo tsconfig.json:
+- "rootDir": "./src",

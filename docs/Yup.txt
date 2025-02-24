@@ -1,0 +1,27 @@
+importa a biblioteca: * as yup - tudo da 'yup'
+
+criamos uma variavel que vai ser de validação
+tem que tipar essa variavel
+- yup.SchemaOf<Tipo>
+
+nela passamos o yup.object().shape()
+- precisa passar todos os atributos que tem no interface, que nós tipamos na variavel
+
+Exemplo:
+## Criar um Tipo
+interface Cidade {
+    nome: string;
+}
+
+## Criar variavel de validação usando yup
+const bodyValidation: yup.ObjectSchema<Cidade>
+
+## criar um objeto shape
+yup.object().shape({ ... })
+
+## passar validações
+nome: yup.string().required().min(3)
+
+## para utilizar a atualização
+await bodyValidation.validate(req.body, { abortEarly: false, })
+- passando o req.body dentro do parenteses, vai passar por todas as validações

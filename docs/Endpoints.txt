@@ -1,0 +1,6 @@
+dentro da pasta 'server'
+vamos criar uma pasta 'routes'
+
+- importa o { Router } do express
+- cria um router usando Router()
+- exporta o router

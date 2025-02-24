@@ -1,0 +1,22 @@
+Configurar
+no arquivo server.ts
+- server.use(express.json())
+
+dentro da rota "post" como por exemplo
+req.body
+- faz uma requisição a body dos dados que estamos enviando
+    - como por exemplo do insomnia que estamos enviando dados dentro do body
+
+podemos enviar dados com res.json() -> envia em formato json (recomendado)
+
+
+req.params -> parametros que vem na url
+exemplo: "/url/:id"
+- usamos ":" antes do que queremos pegar
+req.params.id -> pegamos o id que vem na url
+
+
+req.query -> chaves e valores que tambem vem na url
+exemplo: "/url?nome=Gabriel"
+- usamos "?"
+req.query.nome -> Gabriel

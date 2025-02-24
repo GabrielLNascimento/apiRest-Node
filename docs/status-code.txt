@@ -1,0 +1,11 @@
+comandos:
+- npm install http-status-code
+- npm install -D @types/http-status-code
+
+importo a biblioteca
+{ StatusCode } from "http-status-codes"
+
+E para usar basta apenas fazer o seguinte
+
+se o codigo for 401, usa:
+- StatusCode.UNAUTHORIZED

@@ -10,7 +10,7 @@ Criar arquivo nodemon.json:
     }
 
 criar script:
-"dev": "nodemon"
+"start": "nodemon"
 
 Rodar aplicação
 - npm run dev

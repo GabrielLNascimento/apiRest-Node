@@ -1,0 +1,22 @@
+* Criar arquivo .env
+Podemos adicionar variaveis que nao queremos deixar a mostra no codigo
+Porta, senhas, link de bancos, etc...
+
+* Instalar biblioteca dotenv:
+- npm install dotenv
+
+* importar a biblioteca
+import "dotenv/config"
+
+exemplo de variavel:
+NOME="valor"
+
+Para acessar as variaveis no codigo, utilize esse comando:
+process.env.NOME
+
+Pode vir como undefined, utilizamos o "PORTA || 3000" para caso ser undefined 
+
+
+Criar arquivo .env.example
+- ele serve para apenas armazenar o nome das variaveis, sem o valor
+- e esse arquivo será util para saber quais variaveis ambientes são necessarias no projeto
